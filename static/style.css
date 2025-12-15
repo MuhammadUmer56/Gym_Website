@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+h1 { color: #333; margin-top: 20px; }
+h2 { color: #555; margin-top: 15px; }
+p { color: #555; margin: 15px 20px; }
+ul { list-style-type: none; padding: 0; }
+li { margin: 5px 0; }
+button {
+    margin: 10px 5px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+button a { text-decoration: none; color: white; }
+button:hover { background-color: #0056b3; }

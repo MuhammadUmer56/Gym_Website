@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Gym Website</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>About Us</h1>
+    <p>{{ mission }}</p>
+    <ul>
+        {% for member in team %}
+            <li>{{ member }}</li>
+        {% endfor %}
+    </ul>
+    <button><a href="/">Home</a></button>
+    <button><a href="/membership">Membership</a></button>
+</body>
+</html>
